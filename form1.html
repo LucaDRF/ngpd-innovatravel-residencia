@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="style-home.css">
     <link rel="stylesheet" href="form1_style.css">
     <link rel="stylesheet" href="form2_style.css">
-    <script type="text/javascript" src="form1.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Quicksand:wght@500&display=swap" rel="stylesheet">
@@ -20,7 +19,11 @@
 
     <main>
       <div class="card_form1">
-          <form name="userForm" action="/action_page.php" method="post">
+          <form id="form1" name="userForm" action="./form2.html" method="GET">
+            <input type="hidden" id="origin" name="origin" value="" />
+            <input type="hidden" id="destination" name="destination" value="" />
+            <input type="hidden" id="moneyGoal" name="moneyGoal" value="" />
+
             <label for="campaign" class="input-title2" required >Quero iniciar uma campanha chamada: </label>
             <input type="text" id="campaign" name="campaign" placeholder="Esse será o título da sua campanha...">
         
@@ -30,7 +33,7 @@
             <label for="userPsw" class="input-title2" required >Senha</label>
             <input type="password" id="userPsw" name="userPsw" placeholder="Sua senha deve conter entre 8 e 10 caracteres entre letras e números.">
         
-            <button class="form-button" onclick="return validateForm()"><a href="form2.html" class="linkButton">Continuar</a></button>
+            <input type="button" value="Continuar" id="form-button" class="form-button" onclick="validateForm()" >
           </form>
         </div>
     </main>
@@ -40,4 +43,5 @@
     </footer>
     
 </body>
+<script type="text/javascript" src="form1.js"></script>
 </html>

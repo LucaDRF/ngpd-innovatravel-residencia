@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <script type="text/javascript" src="form1.js"></script>
     <link rel="stylesheet" href="form1_style.css">
     <link rel="stylesheet" href="form2_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,6 +16,10 @@
     
     <main>
             <form id="form2" action="./usuario/index.html"  class="section_form">
+                <input type="hidden" id="origin" name="origin" value="" />
+                <input type="hidden" id="destination" name="destination" value="" />
+                <input type="hidden" id="moneyGoal" name="moneyGoal" value="" />
+                <input type="hidden" id="campaign" name="campaign" value="" />
                 <fieldset>
                     <legend>Dados Pessoais</legend>
                     <label for="completeName" class="input-title">Nome Completo</label> 
@@ -76,7 +79,7 @@
                     <input type="date" id="limit_date" name="limit_date" class="input-field">
                     
                     <label for="mensagem" class="input-title">Hora de falar sobre sua CoTrip. Capricha! </label> 
-                    <textarea id="mensagem" class="input-field" cols="70" rows="10"></textarea>
+                    <textarea id="mensagem" name="message" class="input-field" cols="70" rows="10"></textarea>
 
                     <label for="destinyOption" class="input-title">Você aceitaria outras opções de destino?</label>
                     <select id="destinyOption" name="destinyOption" class="input-field">
@@ -111,4 +114,5 @@
     </main>
     
 </body>
+<script type="text/javascript" src="form2.js"></script>
 </html>

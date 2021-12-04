@@ -10,10 +10,11 @@ body {
 }
 
 #logo {
-    width: 130px;
-    height: 93.32px;
+    width: 100px;
+    height: 80px;
     padding-left: 30px;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 #menuOptions{
@@ -47,30 +48,37 @@ body {
     margin-right: 30px;
 }
 
+.menu-style{
+    font-size: 18px;
+
+}
+
 #fundo {
     width: 100%;
 }
 
 #perfil {
     position: absolute;
-    width: 300px;
-    height: 292px;
-    left: 345px;
-    top: 533px;
+    width: 200px;
+    height: 200px;
+    left: 150px;
+    top: 600px;
     border-radius: 200px;
 }
 
 #mainText {
     position: absolute;
+    text-align: center;
     width: 844px;
     height: 56px;
-    left: 597px;
+    left: 300px;
     top: 810px;
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
     line-height: 56px;
 }
+
 
 .localization {
     position: absolute;
@@ -79,12 +87,12 @@ body {
 }
 
 .localization.before {
-    left: 592px;
+    left: 330px;
     top: 909px;
 }
 
 .localization.after {
-    left: 1341px;
+    left: 1060px;
     top: 909px;
 }
 
@@ -98,6 +106,7 @@ body {
 
 .city {
     position: absolute;
+    left: 400px;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -108,15 +117,15 @@ body {
 .city.before {
     width: 86px;
     height: 38px;
-    left: 577px;
-    top: 964px;
+    left: 320px;
+    top: 950px;
 }
 
 .city.after {
     width: 113px;
     height: 38px;
-    left: 1320px;
-    top: 963px;
+    left: 1035px;
+    top: 950px;
 }
 
 
@@ -139,7 +148,7 @@ body {
     position: absolute;
     width: 666px;
     height: 45px;
-    left: 665px;
+    left: 390px;
     top: 926px;
     background: #9BD24F;
     border-radius: 30px;
@@ -149,7 +158,7 @@ body {
     position: absolute;
     width: 64px;
     height: 64px;
-    left: 1116.25px;
+    left: 780px;
     top: 917px;
 }
 
@@ -536,4 +545,8 @@ body {
     line-height: 19px;
     color: #89BB44;
     border: 0px;
+}
+
+.container{
+    left: 50px !important;
 }

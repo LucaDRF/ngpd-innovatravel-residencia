@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="form1_style.css">
+    <link rel="stylesheet" href="form2_style.css">
+    <script type="text/javascript" src="form1.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>CoTrip</title>
+</head>
+<body>
+
+
+    <main>
+        <div class="card_form0">
+            <h1 id="box-title">COMECE AGORA!</h1>
+            <form name="userForm" action="/action_page.php" method="post">
+                
+                <label for="destination" class="input-title2" required >Destino Principal </label>
+                <input type="text" id="destination" name="destination" placeholder="Exemplo: Orlando, Flórida">
+
+                <label for="propertyType" class="input-title2">Número de Pessoas</label>
+                <select id="propertyType" name="propertyType" class="input-field2">
+                    <option value="hotel">1</option>
+                    <option value="pousada">2</option>
+                    <option value="flat">3</option>
+                    <option value="apartamento">4</option>
+                    <option value="albergue">5+</option>
+                </select>
+        
+                <label for="checkInDate" class="input-title2">Data de ida </label> 
+                <input type="date" id="checkInDate" name="checkInDate" class="input-field">
+
+                <label for="checkOutDate" class="input-title2">Data de retorno </label> 
+                <input type="date" id="checkOutDate" name="checkOutDate" class="input-field">
+
+                <label for="moneyGoal" class="input-title2" required >Valor que deseja arrecadar </label>
+                <input type="text" id="moneyGoal" name="moneyGoal" placeholder="Exemplo: 5000">
+
+            
+        
+            <button class="form-button0" onclick="return validateForm()"><a href="form1.html" class="linkButton">Continuar</a></button>
+          </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="form1_style.css">
+    <link rel="stylesheet" href="form2_style.css">
+    <script type="text/javascript" src="form1.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>CoTrip</title>
+</head>
+<body>
+    
+    <header>
+        <h1 class="title_form1">Vamos te ajudar a preparar sua campanha!</h1>
+        <h3 class="subtitle_form1">Não se preucupe. Essas informações poderão ser alteradas depois.<h3>
+    </header>
+
+    <main>
+      <div class="card_form1">
+          <form name="userForm" action="/action_page.php" method="post">
+            <label for="campaign" class="input-title2" required >Quero iniciar uma campanha chamada: </label>
+            <input type="text" id="campaign" name="campaign" placeholder="Esse será o título da sua campanha...">
+        
+            <label for="userEmail" class="input-title2" required >E mail</label>
+            <input type="email" id="userEmail" name="userEmail" placeholder="seuemail@email.com">
+
+            <label for="userPsw" class="input-title2" required >Senha</label>
+            <input type="password" id="userPsw" name="userPsw" placeholder="Sua senha deve conter entre 8 e 10 caracteres entre letras e números.">
+        
+            <button class="form-button" onclick="return validateForm()"><a href="form2.html" class="linkButton">Continuar</a></button>
+          </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

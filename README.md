@@ -4,7 +4,7 @@
 ![Logo CoTrip](https://github.com/LucaDRF/ngpd-innovatravel-residencia/blob/master/logo.png)
 
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20EXECUÇÃO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20EXECUCAOO&color=GREEN&style=for-the-badge"/>
 </p>
 
 ## Funcionalidades do projeto
@@ -19,7 +19,7 @@ Os forms foram criados em html. Validações de campos foram realizadas através
 Passagens de dados, nesse primeiro momento, foram realizadas com hidden fields através da url utilizando o método get.
 
 ## Acesso ao projeto
-INSERIR LINK
+https://infallible-morse-591f38.netlify.app
 
 ## Técnicas e tecnologias utilizadas
 - Linguagem de programação procedural

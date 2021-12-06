@@ -4,7 +4,7 @@
 ![Logo CoTrip](https://github.com/LucaDRF/ngpd-innovatravel-residencia/blob/master/logo.png)
 
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20EXECUCAOO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20EXECUCAO&color=GREEN&style=for-the-badge"/>
 </p>
 
 ## Funcionalidades do projeto
